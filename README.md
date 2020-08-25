@@ -33,7 +33,7 @@ Above, the data set named "diet" is used as an example. The program has been imp
 
 The output of this program will be model performances, parameters and random forest Gini feature importances saved as binary pickled files (".model") per random state. Furthermore, this will save a ".features" file containing the names of the features used in the final model. 
 
-The model flow is depicted in the below figure. The features for the models either go directly or have feature selection applied either by prior knowledge using known biology or a data-driven forward selection of features. The models are random forest binary classifiers trained and tested using 50 times of 5-fold shuffle-split cross-validations. 
+The model flow is depicted in the below figure is from [1]. The features for the models either go directly or have feature selection applied either by prior knowledge using known biology or a data-driven forward selection of features. The models are random forest binary classifiers trained and tested using 50 times of 5-fold shuffle-split cross-validations. 
 ![flow_chart](flow_chart.png)
 
 
