@@ -1,5 +1,5 @@
 # 3G (Gut, Grain, Greens) weight loss prediction
-This code is used in the paper "Data integration for prediction of weight loss in randomized controlled dietary trials". 
+This code is used in the paper "Data integration for prediction of weight loss in randomized controlled dietary trials" by Rikke L. Nielsen et al [1]. 
 
 The models here are random forest  binary classifiers. In order to run the program, one must first save all input and target data as pandas DataFrames or series and save them as a dict in a binary file using the Python package "pickle". Furthermore, the program is depended on all data being saved with the features as columns and samples as rows, where the sample IDs are of identical dtypes, e.g. all are floats. 
 
@@ -39,5 +39,13 @@ The model flow is depicted in the below figure. The features for the models eith
 
 ## Ensemble models
 A Jupyter notebook has been made showing how to score ensemble models based on the output files of the above main program. 
+
+
+## Reference
+[1] Data integration for prediction of weight loss in randomized controlled dietary trials
+Rikke Linnemann Nielsen1,2*, Marianne Helenius1*, Sara Garcia1, Henrik M. Roager3,4, Derya Aytan-Aktug1,4, Lea Benedicte Skov Hansen1, Mads Vendelbo Lind3,  Josef K.Vogt6, Marlene Danner Dalgaard1, Martin I. Bahl4,  Cecilia Bang Jensen1 , Rasa Muktupavela1, Christina Warinner5, Vincent Appel6, Rikke Gøbel6, Mette Kristensen3, Hanne Frøkiær7, Morten H. Sparholt8, Anders F. Christensen8, Henrik Vestergaard6, Torben Hansen6, Karsten Kristiansen9,  Susanne Brix10, Thomas Nordahl Petersen4, Lotte Lauritzen3**, Tine Rask Licht4**, Oluf Pedersen6**, Ramneek Gupta1**.
+
+* These authors contributed equally
+** Corresponding authors
 
 
