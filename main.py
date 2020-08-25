@@ -9,10 +9,9 @@ import pandas as pd
 import pickle
 import random
 from sklearn.ensemble import RandomForestClassifier
-import utils as u
+import ML_scripts.utils as u
 import ML_scripts.model as mod
 import ML_scripts.forward_selection as forward
-import ML_scripts.ensemble_scoring as ens
 import argparse
 
 ####################
