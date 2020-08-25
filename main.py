@@ -6,16 +6,13 @@ import numpy as np
 np.random.seed(seed) # Set numpy random seed
 import os
 import pandas as pd
-import matplotlib
-matplotlib.use('Agg')
-import matplotlib.pyplot as plt
 import pickle
 import random
 from sklearn.ensemble import RandomForestClassifier
 import utils as u
-import model as mod
-import forward_selection as forward
-import ensemble_scoring as ens
+import ML_scripts.model as mod
+import ML_scripts.forward_selection as forward
+import ML_scripts.ensemble_scoring as ens
 import argparse
 
 ####################
