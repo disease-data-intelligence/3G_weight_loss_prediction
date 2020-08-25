@@ -160,7 +160,7 @@ def confident_majority_voting(scores_frame, true_labels_col, confidence=0.6, dro
 #########################################
 #   Use all ensemble scoring methods
 #########################################
-def score_ensemble(scores, true_col='y', verbose=True, drop=False, min_conf=0.6, max_conf=0.99, step=0.05, threshold=0.5, plt_roc=False): 
+def score_ensemble(scores, true_col='y', drop=False, min_conf=0.6, max_conf=0.99, step=0.05, threshold=0.5, verbose=True): 
     # Mean of scores
     means, [auc_score, sens, spec, mcc], (fpr, tpr) = average_scoring(scores_frame=scores, true_labels_col=true_col, drop=drop, t=threshold)
     if verbose: 
