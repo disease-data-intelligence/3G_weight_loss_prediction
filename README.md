@@ -1,5 +1,7 @@
 # 3G (Gut, Grain, Greens) weight loss prediction
-This code is used in the paper "Data integration for prediction of weight loss in randomized controlled dietary trials". The models here are random forest  binary classifiers. In order to run the program, one must first save all input and target data as pandas DataFrames or series and save them as a dict in a binary file using the Python package "pickle". Furthermore, the program is depended on all data being saved with the features as columns and samples as rows, where the sample IDs are of identical dtypes, e.g. all are floats. 
+This code is used in the paper "Data integration for prediction of weight loss in randomized controlled dietary trials". 
+
+The models here are random forest  binary classifiers. In order to run the program, one must first save all input and target data as pandas DataFrames or series and save them as a dict in a binary file using the Python package "pickle". Furthermore, the program is depended on all data being saved with the features as columns and samples as rows, where the sample IDs are of identical dtypes, e.g. all are floats. 
 
 Python dependencies required to run this is: 
 - Python 3.7.1
@@ -8,6 +10,9 @@ Python dependencies required to run this is:
 - Numpy version 1.15.4
 - Joblib version 0.13.2
 - Argparse version 1.1
+
+## Running the main program
+The main program will train and test random forest binary classifiers based on the 
 
 The models are run in terminal by: 
 
@@ -31,4 +36,8 @@ The output of this program will be model performances, parameters and random for
 The model flow is depicted in the below figure. The features for the models either go directly or have feature selection applied either by prior knowledge using known biology or a data-driven forward selection of features. The models are random forest binary classifiers trained and tested using 50 times of 5-fold shuffle-split cross-validations. 
 ![flow_chart](flow_chart.png)
 
-http://www.3g-center.dk/about-the-consortium
+
+## Ensemble models
+A Jupyter notebook has been made showing how to score ensemble models based on the output files of the above main program. 
+
+
