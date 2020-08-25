@@ -1,5 +1,11 @@
 # 3G (Gut, Grain, Greens) weight loss prediction
-This code is used in the paper "Data integration for prediction of weight loss in clinically controlled dietary trials". The models here are random forest  binary classifiers. In order to run the program, one must first save all input and target data as pandas DataFrames or series and save them as a dict in a binary file using the Python package "pickle". Furthermore, the program is depended on all data being saved with the features as columns and samples as rows, where the sample IDs are of identical dtypes, e.g. all are floats. 
+This code is used in the paper "Data integration for prediction of weight loss in randomized controlled dietary trials". The models here are random forest  binary classifiers. In order to run the program, one must first save all input and target data as pandas DataFrames or series and save them as a dict in a binary file using the Python package "pickle". Furthermore, the program is depended on all data being saved with the features as columns and samples as rows, where the sample IDs are of identical dtypes, e.g. all are floats. 
+
+Python dependencies required to run this is: 
+- Python 3.7.1
+- Scikit-learn version 0.20.1
+- Pandas version 0.23.4
+- joblib version 0.13.2
 
 The models are run in terminal by: 
 
