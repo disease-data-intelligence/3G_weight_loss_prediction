@@ -43,9 +43,9 @@ A Jupyter notebook has been made showing how to score ensemble models based on t
 
 ## Reference
 [1] *Data integration for prediction of weight loss in randomized controlled dietary trials*
-Rikke Linnemann Nielsen^{\*}, Marianne Helenius^{\*}, Sara Garcia, Henrik M. Roager, Derya Aytan-Aktug, Lea Benedicte Skov Hansen, Mads Vendelbo Lind,  Josef K. Vogt, Marlene Danner Dalgaard, Martin I. Bahl,  Cecilia Bang Jensen, Rasa Muktupavela, Christina Warinner, Vincent Appel, Rikke Gøbel, Mette Kristensen, Hanne Frøkiær, Morten H. Sparholt, Anders F. Christensen, Henrik Vestergaard, Torben Hansen, Karsten Kristiansen,  Susanne Brix, Thomas Nordahl Petersen, Lotte Lauritzen^{\*\*}, Tine Rask Licht^{\*\*}, Oluf Pedersen^{\*\*}, Ramneek Gupta^{\*\*}
+Rikke Linnemann Nielsen<sup>\*</sup>, Marianne Helenius<sup>\*</sup>, Sara Garcia, Henrik M. Roager, Derya Aytan-Aktug, Lea Benedicte Skov Hansen, Mads Vendelbo Lind,  Josef K. Vogt, Marlene Danner Dalgaard, Martin I. Bahl,  Cecilia Bang Jensen, Rasa Muktupavela, Christina Warinner, Vincent Appel, Rikke Gøbel, Mette Kristensen, Hanne Frøkiær, Morten H. Sparholt, Anders F. Christensen, Henrik Vestergaard, Torben Hansen, Karsten Kristiansen,  Susanne Brix, Thomas Nordahl Petersen, Lotte Lauritzen<sup>\*\*</sup>, Tine Rask Licht<sup>\*\*</sup>, Oluf Pedersen<sup>\*\*</sup>, Ramneek Gupta<sup>\*\*</sup>
 
-* These authors contributed equally
-** Corresponding authors
+\* These authors contributed equally
+\*\* Corresponding authors
 
 
