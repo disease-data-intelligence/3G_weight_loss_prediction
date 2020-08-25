@@ -12,7 +12,7 @@ Python dependencies required to run this is:
 - Argparse version 1.1
 
 ## Running the main program
-The main program will train and test random forest binary classifiers based on the 
+The main program will train and test random forest binary classifiers based on the input data contained in "load_data.pickle" and use the keys of this pickled dictionary as filenames. 
 
 The models are run in terminal by: 
 
