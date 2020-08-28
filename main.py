@@ -132,7 +132,7 @@ def main(args):
                 else: 
                     max_f = X_select.shape[1]
 
-                best_model = forward.forward_selection2(X_data=X_select, y_data=y_shuffled, model=rf, selects=select, seed=state, cv=5, max_features=max_f)
+                best_model = forward.forward_selection2(X_data=X_select, y_data=y_shuffled, model=rf, selects=select, seed=state, cv=args.cv_splits, max_features=max_f)
 
             else: 
                 if args.input_labels[1] == '16s_var250': 
