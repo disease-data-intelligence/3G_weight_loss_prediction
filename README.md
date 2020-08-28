@@ -17,7 +17,7 @@ The main program will train and test random forest binary classifiers based on t
 The models are run in terminal by: 
 
 ```console
-python scripts/main.py --input_labels diet <other data sets> --target_label target [OPTIONAL FLAGS]
+python main.py --input_labels diet <other data sets> --target_label target [OPTIONAL FLAGS]
 ```
 Above, the data set named "diet" is used as an example. The program has been implemented with the following flags: 
 - ```-i``` or ```--input_labels``` specifies the keys which will extract the selected data set from a saved binary pickle file, containing a Python dict of all data sets. This flag is required. 
